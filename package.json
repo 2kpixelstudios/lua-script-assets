@@ -1,0 +1,19 @@
+{
+    "name": "net.2kpixelstudios.unity-lua-script-support",
+    "version": "0.1.0",
+    "displayName": "Unity Lua Script Support",
+    "description": "This is a simple package that makes Unity import \".lua\" files as TextAssets, and allows the creation of Lua scripts from the Unity editor (alongside C# scripts in the Assets menu).\n\nAccess the Github Repository at https://github.com/2kCarlos/unity-lua-script-support",
+    "unity": "2019.4",
+    "unityRelease": "26f1",
+    "keywords": [
+        "lua",
+        "c#",
+        "scripting",
+        "programming"
+    ],
+    "author": {
+        "name": "Carlos DaLomba",
+        "email": "carlos@2kpixelstudios.net",
+        "url": "https://github.com/2kCarlos"
+    }
+}
