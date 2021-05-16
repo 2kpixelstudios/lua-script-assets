@@ -1,11 +1,13 @@
 # Unity Lua Script Support
 This is a Unity package that allows creating lua scripts from the Unity editor, and makes [Unity](https://unity.com/) import ".lua" files as TextAssets. 
 
-## Supported Unity Versions
+## :exclamation: Requirements
 
-**NOTE:** This package **works** in Unity 2019.4.26f1 or newer.
+- Unity 2019.4.26f1 or newer
 
-## Usage
+---
+
+## How To Use This Package
 
 ### Short Instructions
 
