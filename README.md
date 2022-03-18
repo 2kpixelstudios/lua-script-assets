@@ -1,4 +1,4 @@
-# Unity Lua Script Support
+# Unity Lua Assets
 This is a Unity package that allows creating lua scripts from the Unity editor, and makes [Unity](https://unity.com/) import ".lua" files as TextAssets. 
 
 ## :exclamation: Requirements
