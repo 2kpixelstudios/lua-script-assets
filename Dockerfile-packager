@@ -1,0 +1,10 @@
+FROM cometpeakgames/unity-project-packager
+
+# NOTE: The WORKDIR resets after the FROM command! It does NOT get inherited from the base image.
+WORKDIR /src
+COPY . .
+RUN git remote set-url origin git@github.com:cometpeakgames/unity-lua-assets.git
+
+RUN apk add --no-cache dos2unix \
+    && dos2unix ./* \
+    && apk del dos2unix
