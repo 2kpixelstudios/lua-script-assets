@@ -1,11 +1,11 @@
 version: "3.8"
 services:
-  unity-lua-assets-packager:
+  lua-script-assets-packager:
     build:
       context: .
       dockerfile: Dockerfile-packager
-    image: cometpeakgames/unity-lua-assets-packager
-    container_name: unity-lua-assets-packager
+    image: cometpeakgames/lua-script-assets-packager
+    container_name: lua-script-assets-packager
     command: [ "/src/scripts/package-instructions.sh" ]
     environment:
      - AWS_ACCESS_KEY_ID # NOTE: This name MUST be AWS_ACCESS_KEY_ID for AWS CLI to work

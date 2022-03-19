@@ -1,9 +1,9 @@
-# Unity Lua Assets
+# Lua Script Assets (Unity package)
 This is a Unity package that allows creating lua scripts from the Unity editor, and makes [Unity](https://unity.com/) import ".lua" files as TextAssets. 
 
 ## :exclamation: Requirements
 
-- Unity 2019.4.26f1 or newer
+- Unity 2020.3.18f1 or newer
 
 ---
 
@@ -11,7 +11,7 @@ This is a Unity package that allows creating lua scripts from the Unity editor, 
 
 ### Short Instructions
 
-To use this project, you can download the latest tagged release OR clone locally as a Git submodule -- either way, into your Unity project _(2019.4.26+)_.
+To use this project, you can download the latest tagged release OR clone locally as a Git submodule -- either way, into your Unity project _(2020.3.18+)_.
 
 When cloning as a Git submodule, either clone from the `unity-package` branch or a tag like `v0.1.0`.
 
@@ -21,7 +21,7 @@ Once it's there, simply add the Unity package as a local package (from disk).
 
 To use this project, ensure you already have a version of Unity downloaded with a Unity project open.
 
-Ensure your Unity project is using Unity 2019.4.26 or newer.
+Ensure your Unity project is using Unity 2020.3.18 or newer.
 
 1. Download this project's tagged latest release, or clone this repo as a Git submodule.
   - If cloning as a Git submodule, use the `unity-package` branch or a tag such as `v0.1.0`.
