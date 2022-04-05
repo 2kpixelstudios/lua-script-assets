@@ -13,3 +13,7 @@ services:
      - AWS_DEFAULT_REGION
      - AWS_OUTPUT_TYPE
      - CPG_SECRET_SSH_KEY_ID
+    volumes:
+      - type: bind
+        source: $HOST_DIR/scripts/packaging
+        target: /unity-project-packager/packaging
