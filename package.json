@@ -4,7 +4,7 @@
     "displayName": "Lua Script Assets",
     "description": "This is a simple package that makes Unity import \".lua\" files as TextAssets, and allows the creation of Lua scripts from the Unity editor (alongside C# scripts in the Assets menu).\n\nAccess the Github Repository at https://github.com/cometpeakgames/lua-script-assets",
     "unity": "2020.3",
-    "unityRelease": "18f1",
+    "unityRelease": "32f1",
     "keywords": [
         "lua",
         "c#",
