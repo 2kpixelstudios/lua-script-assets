@@ -1,5 +1,6 @@
 {
-    "name": "LuaScriptsSupportEditor",
+    "name": "CometPeak.LuaScriptAssets",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [
         "Editor"
