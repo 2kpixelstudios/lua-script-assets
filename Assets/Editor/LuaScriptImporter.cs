@@ -8,7 +8,7 @@ using UnityEditor.AssetImporters;
 using UnityEditor.Experimental.AssetImporters;
 #endif
 
-namespace LuaScriptsSupportEditor {
+namespace CometPeak.LuaScriptAssets {
     /// <summary>
     /// A custom scripted importer that handles importing ".lua" files as text assets.
     /// </summary>
