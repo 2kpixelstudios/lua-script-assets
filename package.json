@@ -1,10 +1,10 @@
 {
-    "name": "net.cometpeakgames.lua-script-assets",
-    "version": "0.1.1",
+    "name": "net.2kpixelstudios.lua-script-assets",
+    "version": "1.0.0-pre.1",
     "displayName": "Lua Script Assets",
-    "description": "This is a simple package that makes Unity import \".lua\" files as TextAssets, and allows the creation of Lua scripts from the Unity editor (alongside C# scripts in the Assets menu).\n\nAccess the Github Repository at https://github.com/cometpeakgames/lua-script-assets",
-    "unity": "2020.3",
-    "unityRelease": "32f1",
+    "description": "This is a simple package that makes Unity import \".lua\" files as TextAssets, and allows the creation of Lua scripts from the Unity editor (alongside C# scripts in the Assets menu).\n\nAccess the Github Repository at https://github.com/2kpixelstudios/lua-script-assets",
+    "unity": "2021.3",
+    "unityRelease": "30f1",
     "keywords": [
         "lua",
         "c#",
@@ -14,7 +14,7 @@
     ],
     "author": {
         "name": "Carlos DaLomba",
-        "email": "carlos@cometpeakgames.net",
-        "url": "https://github.com/2kCarlos"
+        "email": "carlos@2kpixelstudios.net",
+        "url": "https://github.com/2kpixelstudios"
     }
 }
