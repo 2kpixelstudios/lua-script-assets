@@ -2,13 +2,9 @@
 using UnityEngine;
 using UnityEditor;
 
-#if UNITY_2020_1_OR_NEWER
 using UnityEditor.AssetImporters;
-#else
-using UnityEditor.Experimental.AssetImporters;
-#endif
 
-namespace CometPeak.LuaScriptAssets {
+namespace PS2k.LuaScriptAssets {
     /// <summary>
     /// A custom scripted importer that handles importing ".lua" files as text assets.
     /// </summary>
@@ -25,7 +21,13 @@ namespace CometPeak.LuaScriptAssets {
             ctx.SetMainObject(luaScript);
         }
 
-        [MenuItem("Assets/Create/Lua Script", false, 80)]
+        [MenuItem(
+#if UNITY_6000_0_OR_NEWER
+            "Assets/Create/Scripting/Lua Script"
+#else
+            "Assets/Create/Lua Script"
+#endif
+            , false, 80)]
         public static void CreateLuaScript() {
             string assetFileName = "New Lua Script.lua";
             string defaultLuaCode = @"print(""Hello World from Lua!"")" + "\n";

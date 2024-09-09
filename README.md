@@ -3,7 +3,7 @@ This is a Unity package that allows creating lua scripts from the Unity editor, 
 
 ## :exclamation: Requirements
 
-- Unity 2020.3.18f1 or newer
+- Unity 2021.3.30f1 or newer
 
 ---
 
