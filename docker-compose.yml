@@ -6,14 +6,8 @@ services:
       dockerfile: Dockerfile
     image: 2kpixelstudios/lua-script-assets
     container_name: lua-script-assets
-    command: [ "/src/scripts/package-instructions.sh" ]
     environment:
-     - AWS_ACCESS_KEY_ID # NOTE: This name MUST be AWS_ACCESS_KEY_ID for AWS CLI to work
-     - AWS_SECRET_ACCESS_KEY # NOTE: This name MUST be AWS_SECRET_ACCESS_KEY for AWS CLI to work
-     - AWS_DEFAULT_REGION
-     - AWS_OUTPUT_TYPE
-     - PS2K_SECRET_SSH_KEY_ID
-    volumes:
-      - type: bind
-        source: $HOST_DIR/scripts/packaging
-        target: /unity-project/packaging
+      - PS2K_CICD_EMAIL
+      - PS2K_CICD_NAME
+      - GIT_REMOTE_URL=git@github.com:2kpixelstudios/lua-script-assets.git
+
